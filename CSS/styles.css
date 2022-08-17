@@ -1,0 +1,96 @@
+body{
+
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+
+  background-image: linear-gradient(to bottom,#553a91, black);
+  font-family:helvetica, verdana, sans-serif;
+  background-color: #E4F9F5;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  position:absolute;
+  font-size: 50px;
+  left:40%;
+
+  color: aliceblue;
+  margin: 200px auto 0 auto;
+  
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h7{
+  display: none;
+  position: relative;
+  left: 45%;
+  top: 10%;
+  
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+}
+.img{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+
+div{
+ border: 3px;
+  margin: 0;
+  background-color: #E4F9F5;
+ 
+}
+.top-cloud{
+  position: absolute;
+  width: 8%;
+  bottom: 35%;
+  right: 10%;
+}
+.bottom-cloud{
+  width: 8%;
+  position: absolute;
+  left: 12%;
+  top: 15%;
+  
+}
+.balloon{
+  width:10%;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+}
+.top-container{
+  background-image: linear-gradient(to bottom,#00030b, #009659);
+  
+  height: 100vh;
+  border-style: solid;
+  
+}
+
+.my-profile-img{
+width: 20%;
+}
+.my-skills{
+  width: 20%
+}
+.mountain{
+  
+  position: absolute  ;
+  width: 100%;
+  bottom: 0%;
+  right: 0%;
+  
+}
+
+.op{
+  font-family: "Montserrat-";
+}
+.footer-img{
+  margin: 30px;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+}
