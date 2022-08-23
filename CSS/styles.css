@@ -2,95 +2,190 @@ body{
 
   text-align: center;
   margin: 0;
-  font-family: 'Merriweather', serif;
-
-  background-image: linear-gradient(to bottom,#553a91, black);
+ 
+  color:#40514E;
+  background-image: linear-gradient(to bottom,#fffde9, #ffffff);
   font-family:helvetica, verdana, sans-serif;
-  background-color: #E4F9F5;
-}
-
-h1{
-  font-family: 'Sacramento', cursive;
-  position:absolute;
-  font-size: 50px;
-  left:40%;
-
-  color: aliceblue;
-  margin: 200px auto 0 auto;
-  
-}
-h2{
-  font-family: 'Montserrat', sans-serif;
-}
-h7{
-  display: none;
-  position: relative;
-  left: 45%;
-  top: 10%;
-  
-  color: aliceblue;
-  font-family: 'Montserrat', sans-serif;
-}
-.img{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-
-div{
- border: 3px;
-  margin: 0;
-  background-color: #E4F9F5;
  
 }
+hr{
+
+  width:3.7%;
+  border-color: #8CA1A5;
+  border-spacing: 2px;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 12px;
+  background-color: none;
+}
+
+#name{
+  font-family: 'Sacramento', cursive;
+  position:relative;
+  top: 30%;
+  font-size: 4em;
+  line-height: 2;
+  text-underline-offset: 2px;
+  text-underline-position: below;
+  color: #2c3334;
+  margin: auto;
+  
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  
+  font-size: 4em;
+  line-height: 2;
+  text-underline-offset: 2px;
+  text-underline-position: below;
+  color: #2c3334;
+  
+}
+.top{
+  font-family: 'Caveat', cursive;
+  position: relative;
+  font-size: 1.5em;
+  top: 25%;
+  left: 10%;
+  margin: auto;
+  font-weight: normal;
+  color: #2c3334;
+  
+}
+
+.img{
+  display: block;
+  height: 25%;
+  width: 25%;
+
+  margin: 100px auto 50px auto;
+}
+.development{
+  height: 25%;
+  width: 25%;
+  margin-right: 30px;
+  
+  float: left;
+}
+.hobbies{
+  height: 25%;
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+  
+}
+
+
 .top-cloud{
   position: absolute;
   width: 8%;
   bottom: 35%;
   right: 10%;
 }
-.bottom-cloud{
-  width: 8%;
-  position: absolute;
-  left: 12%;
-  top: 15%;
-  
-}
+
 .balloon{
   width:10%;
-  position: absolute;
-  left: 60%;
-  top: 15%;
+  position: relative;
+  left: 15%;
+  margin: auto;
 }
 .top-container{
-  background-image: linear-gradient(to bottom,#00030b, #009659);
+  background-image: linear-gradient(to bottom,#42afdb, #f2f49f);
+  height:820px;
+  width: 100vw;
   
-  height: 100vh;
-  border-style: solid;
-  
-}
-
-.my-profile-img{
-width: 20%;
-}
-.my-skills{
-  width: 20%
 }
 .mountain{
   
-  position: absolute  ;
-  width: 100%;
-  bottom: 0%;
-  right: 0%;
+  display: block;
+  position: relative;
+  bottom: 20%;
+  width: 100vw;
+  
   
 }
-
-.op{
-  font-family: "Montserrat-";
+.bottom-container{
+  
+  width: 100vw;
+  padding: 0 0 50px 0;
+  background-image: linear-gradient(to top , rgba(147, 88, 25, 0.423), rgb(214, 230, 228));
 }
+
 .footer-img{
-  margin: 30px;
-  width: 55px;
-  height: 55px;
-  display: inline-block;
+  
+
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 55%;
+  display: inline-block;  
+}
+.quote{
+  align-items: center;
+  font-size: 40px;
+  font-family: 'Caveat', cursive;
+}
+.lower{
+  position: relative;
+  top: 55%;
+}
+.hello-body{
+  
+  text-align: center;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  line-height: 2;
+}
+#connect{
+  position: relative;
+  top: 53%;
+  margin: auto;
+  font-style: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color:#40514E;
+  font-family: 'Dancing Script', cursive;
+}
+#connect:hover{
+  color: brown;
+}
+#My-Skills{
+  margin: auto;
+  font-style: bold;
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+}
+.My-Skills{
+  width: 100vw;
+  height: 110px;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  background-color: #6ce2e6;
+  
+}
+#writter{
+  font-size: 30px;
+  
+  margin-left: 800px;
+}
+#red{
+  color: red;
+}
+#green{
+  color: #009659;
+}
+h3,h2{
+  color: #11999E;
+  font-family: 'Dancing Script', cursive;
+}
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.skill-row{
+  width: 50%;
+  font-size: 16px;
+ margin: 100px auto 100px auto; 
+  text-align: left;
+  line-height: 2;
 }
