@@ -22,7 +22,7 @@ hr{
 #name{
   font-family: 'Sacramento', cursive;
   position:relative;
-  top: 30%;
+  top: 20%;
   font-size: 4em;
   line-height: 2;
   text-underline-offset: 2px;
@@ -45,7 +45,7 @@ h1{
   font-family: 'Caveat', cursive;
   position: relative;
   font-size: 1.5em;
-  top: 25%;
+  top: 15%;
   left: 10%;
   margin: auto;
   font-weight: normal;
@@ -85,21 +85,21 @@ h1{
 
 .balloon{
   width:10%;
-  position: relative;
-  left: 15%;
-  margin: auto;
+  display: inline-block;
+  left: 25%;
+  margin: 0 0 0 50%;
 }
 .top-container{
-  background-image: linear-gradient(to bottom,#42afdb, #f2f49f);
-  height:820px;
+  background-image: linear-gradient(to bottom,#42afdb, #fffde9);
+  height:800px;
   width: 100vw;
   
 }
 .mountain{
   
   display: block;
-  position: relative;
-  bottom: 20%;
+  position: absolute;
+  bottom: 0%;
   width: 100vw;
   
   
@@ -108,7 +108,7 @@ h1{
   
   width: 100vw;
   padding: 0 0 50px 0;
-  background-image: linear-gradient(to top , rgba(147, 88, 25, 0.423), rgb(214, 230, 228));
+  background-image: linear-gradient(to bottom ,white, #00c4f09c);
 }
 
 .footer-img{
